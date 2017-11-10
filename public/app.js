@@ -4,7 +4,7 @@ $.ajax({
   url: 'https://api.github.com/user/repos?type=owner',
   method: 'GET',
   headers: {
-    Authorization: 'token copypasta-your-token-here'
+    Authorization: 'token copy-pasta-your-token-here'
   }
 })
   .then(

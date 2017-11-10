@@ -6,8 +6,6 @@ const cors = require('cors');
 app.use(express.static('./public'));
 app.use(cors());
 
-
-
 app.get('/', (req, res) => {
   res.sendFile('index.html')
 });
